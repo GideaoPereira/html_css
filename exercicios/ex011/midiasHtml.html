@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+        <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+           <link rel="icon" href="faviconIpub1.png">
+          
+            <title>Midias em HTML5</title>
+        </head>
+        <body>
+            <h1>Imagens dinâmicas</h1>
+            <p>Tente abrir esse site em vários dispositivos difefentes ou
+            simplesmente aumente e diminua o tamanho do seu navegador</p>
+          
+          <picture>
+              <source media="(max-width: 750px)" srcset="imagens/foto_p.png" type="image/png">
+            <source media="(max-width: 1050px)" srcset="imagens/foto_m.png" type="image/png">
+            <img src="imagens/foto_g.png" alt="imagem flexivel">
+             </picture>
+          
+            <h1>Reproduzindo Áudio</h1>
+            <p>Vamos aprender reproduzir audios em HTML5</p>
+             <!--Principais formatos de Mídia == MP3 WAV OGG-->
+            
+            <p> Podcast Guanabara: </p>
+            <audio preload="metadata" autoplay controls loop>
+                
+                <source src="midia/guanacast.mp3" type="audio/mpeg">
+                 <source src="midia/guanacast.ogg" type="audio/ogg">
+                  <source src="midia/guanacast.wav" type="audio/wav">              
+            </audio>
+           
+             <p>Adele Set Fire </p>
+            <audio preload="metadata" autoplay controls loop>
+                
+                <source src="midia/adele-set-fire.mp3" type="audio/mpeg">
+                 <source src="midia/adele-set-fire.ogg" type="audio/ogg">
+                  <source src="midia/adele-set-fire.wav" type="audio/wav">              
+            </audio>
+           
+            <p>Jorge e Mateus </p>
+            <audio preload="metadata" autoplay controls loop>
+                
+                <source src="midia/jorge-mateus.mp3" type="audio/mpeg">
+                 <source src="midia/jorge-mateus.ogg" type="audio/ogg">
+                  <source src="midia/jorge-mateus.wma" type="audio/wma">              
+            </audio>
+           
+            <p>Happy Mistake </p>
+            <audio preload="metadata" autoplay controls loop>
+                
+                <source src="midia/happy-mistake.mp3" type="audio/mpeg">
+                 <source src="midia/happy-mistake.ogg" type="audio/ogg">
+                  <source src="midia/happy-mistake.wav" type="audio/wav">              
+            </audio>
+            
+              <p>Kalimba</p>
+            <audio preload="metadata" autoplay controls loop>
+                
+                <source src="midia/Kalimba.mp3" type="audio/mpeg">
+                 <source src="midia/Kalimba.ogg" type="audio/ogg">
+                  <source src="Kalimba.wav" type="audio/wav">              
+            </audio>
+            
+              <p>Água</p>
+            <audio preload="metadata" autoplay controls loop>
+                
+                <source src="midia/bbc-caves.mp3" type="audio/mpeg">
+                 <source src="midia/bbc-caves.ogg" type="audio/ogg">
+                  <source src="bbc-caves.wav" type="audio/wav">              
+            </audio>
+           
+           
+            
+        </body>
+        
+    </html>
